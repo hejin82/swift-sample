@@ -8,6 +8,21 @@
 
 import Cocoa
 
+enum ErrorCode: Int {
+    /// we could't find the document at all
+    case cannotAccessDocument
+    /// we could't access any file wrapper inside this document
+    case cannotLoadFileWrappers
+    /// we could't load the text.rtf file
+    case cannotLoadText
+    /// we could't access the attachments folder
+    case cannotAccessAttachements
+    /// we could't save the text.rtf file
+    case cannotSaveText
+    /// we could't save an attachment
+    case cannotSaveAttachment
+}
+
 class Document: NSDocument {
 
     override init() {
@@ -38,6 +53,14 @@ class Document: NSDocument {
         throw NSError(domain: NSOSStatusErrorDomain, code: unimpErr, userInfo: nil)
     }
 
+    let ErrorDomain = "NotesErrorDomain";
+    func err(_ code: ErrorCode, _ userInfo: [AnyHashable: Any]? = nil) -> NSError {
+        return NSError(domain: ErrorDomain, code: code.rawValue, userInfo: nil)
+    }
+    
+    override func fileWrapper(ofType typeName: String) throws -> FileWrapper {
+        let textRTFData = try self.text.data(from: NSRange(0 ..< self.text.length), documetnAttributes: [)
+    }
 
 }
 
