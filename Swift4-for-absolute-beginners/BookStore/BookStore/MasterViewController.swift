@@ -8,7 +8,29 @@
 
 import UIKit
 
-class MasterViewController: UITableViewController {
+class MasterViewController: UITableViewController, BookStoreDelegate {
+    func newBook(_ controller: AnyObject, newBook: Book) {
+        myBookStore.bookList.append(newBook);
+        tableView.reloadData();
+        navigationController?.popViewController(animated: true)
+    }
+    
+    func editBook(_ controller: AnyObject, editBook: Book) {
+        if let row = tableView.indexPathForSelectedRow?.row {
+            myBookStore.bookList[row] = editBook
+        }
+        tableView.reloadData()
+        navigationController?.popToRootViewController(animated: true)
+    }
+    
+    func deleteBook(_ controller: AnyObject) {
+        if let row = tableView.indexPathForSelectedRow?.row {
+            myBookStore.bookList.remove(at: row)
+        }
+        tableView.reloadData()
+        navigationController?.popToRootViewController(animated: true)
+    }
+    
 
     var detailViewController: DetailViewController? = nil
     var objects = [Any]()
@@ -39,9 +61,9 @@ class MasterViewController: UITableViewController {
 
     @objc
     func insertNewObject(_ sender: Any) {
-        objects.insert(NSDate(), at: 0)
-        let indexPath = IndexPath(row: 0, section: 0)
-        tableView.insertRows(at: [indexPath], with: .automatic)
+        // let indexPath = IndexPath(row: 0, section: 0)
+        // tableView.insertRows(at: [indexPath], with: .automatic)
+        performSegue(withIdentifier: "addBookSegue", sender: nil)
     }
 
     // MARK: - Segues
@@ -55,6 +77,9 @@ class MasterViewController: UITableViewController {
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }
+        } else if segue.identifier == "addBookSegue" {
+            let vc = segue.destination as! AddBookViewController
+            vc.delegate = self
         }
     }
 

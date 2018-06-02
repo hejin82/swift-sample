@@ -7,35 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77E849E120C1DCB000357650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E849E020C1DCB000357650 /* AppDelegate.swift */; };
-		77E849E320C1DCB000357650 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E849E220C1DCB000357650 /* MasterViewController.swift */; };
-		77E849E520C1DCB000357650 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E849E420C1DCB000357650 /* DetailViewController.swift */; };
-		77E849E820C1DCB000357650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E849E620C1DCB000357650 /* Main.storyboard */; };
-		77E849EA20C1DCB400357650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E849E920C1DCB400357650 /* Assets.xcassets */; };
-		77E849ED20C1DCB400357650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E849EB20C1DCB400357650 /* LaunchScreen.storyboard */; };
-		77E849F520C1DCE900357650 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E849F420C1DCE900357650 /* Customer.swift */; };
-		77E84A3520C1EA8700357650 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E84A3420C1EA8700357650 /* Book.swift */; };
-		77E84A3720C1ECF000357650 /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E84A3620C1ECF000357650 /* BookStore.swift */; };
-		77E84A9E20C2A92E00357650 /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E84A9D20C2A92E00357650 /* AddBookViewController.swift */; };
+		77E84A8720C2021400357650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E84A8620C2021400357650 /* AppDelegate.swift */; };
+		77E84A8920C2021400357650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E84A8820C2021400357650 /* ViewController.swift */; };
+		77E84A8C20C2021400357650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E84A8A20C2021400357650 /* Main.storyboard */; };
+		77E84A8F20C2021400357650 /* RandomNumberDelegate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77E84A8D20C2021400357650 /* RandomNumberDelegate.xcdatamodeld */; };
+		77E84A9120C2021600357650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E84A9020C2021600357650 /* Assets.xcassets */; };
+		77E84A9420C2021600357650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E84A9220C2021600357650 /* LaunchScreen.storyboard */; };
+		77E84A9C20C206B400357650 /* GuessInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E84A9B20C206B400357650 /* GuessInputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		77E849DD20C1DCB000357650 /* BookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		77E849E020C1DCB000357650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77E849E220C1DCB000357650 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		77E849E420C1DCB000357650 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		77E849E720C1DCB000357650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77E849E920C1DCB400357650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		77E849EC20C1DCB400357650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77E849EE20C1DCB400357650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77E849F420C1DCE900357650 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		77E84A3420C1EA8700357650 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		77E84A3620C1ECF000357650 /* BookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
-		77E84A9D20C2A92E00357650 /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		77E84A8320C2021400357650 /* RandomNumberDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomNumberDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E84A8620C2021400357650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77E84A8820C2021400357650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77E84A8B20C2021400357650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77E84A8E20C2021400357650 /* RandomNumberDelegate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RandomNumberDelegate.xcdatamodel; sourceTree = "<group>"; };
+		77E84A9020C2021600357650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77E84A9320C2021600357650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77E84A9520C2021600357650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E84A9B20C206B400357650 /* GuessInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessInputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		77E849DA20C1DCB000357650 /* Frameworks */ = {
+		77E84A8020C2021400357650 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		77E849D420C1DCB000357650 = {
+		77E84A7A20C2021400357650 = {
 			isa = PBXGroup;
 			children = (
-				77E849DF20C1DCB000357650 /* BookStore */,
-				77E849DE20C1DCB000357650 /* Products */,
+				77E84A8520C2021400357650 /* RandomNumberDelegate */,
+				77E84A8420C2021400357650 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		77E849DE20C1DCB000357650 /* Products */ = {
+		77E84A8420C2021400357650 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77E849DD20C1DCB000357650 /* BookStore.app */,
+				77E84A8320C2021400357650 /* RandomNumberDelegate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		77E849DF20C1DCB000357650 /* BookStore */ = {
+		77E84A8520C2021400357650 /* RandomNumberDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				77E849E020C1DCB000357650 /* AppDelegate.swift */,
-				77E849E220C1DCB000357650 /* MasterViewController.swift */,
-				77E849E420C1DCB000357650 /* DetailViewController.swift */,
-				77E849E620C1DCB000357650 /* Main.storyboard */,
-				77E849E920C1DCB400357650 /* Assets.xcassets */,
-				77E849EB20C1DCB400357650 /* LaunchScreen.storyboard */,
-				77E849EE20C1DCB400357650 /* Info.plist */,
-				77E849F420C1DCE900357650 /* Customer.swift */,
-				77E84A3420C1EA8700357650 /* Book.swift */,
-				77E84A3620C1ECF000357650 /* BookStore.swift */,
-				77E84A9D20C2A92E00357650 /* AddBookViewController.swift */,
+				77E84A8620C2021400357650 /* AppDelegate.swift */,
+				77E84A8820C2021400357650 /* ViewController.swift */,
+				77E84A8A20C2021400357650 /* Main.storyboard */,
+				77E84A9020C2021600357650 /* Assets.xcassets */,
+				77E84A9220C2021600357650 /* LaunchScreen.storyboard */,
+				77E84A9520C2021600357650 /* Info.plist */,
+				77E84A8D20C2021400357650 /* RandomNumberDelegate.xcdatamodeld */,
+				77E84A9B20C206B400357650 /* GuessInputViewController.swift */,
 			);
-			path = BookStore;
+			path = RandomNumberDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77E849DC20C1DCB000357650 /* BookStore */ = {
+		77E84A8220C2021400357650 /* RandomNumberDelegate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77E849F120C1DCB400357650 /* Build configuration list for PBXNativeTarget "BookStore" */;
+			buildConfigurationList = 77E84A9820C2021600357650 /* Build configuration list for PBXNativeTarget "RandomNumberDelegate" */;
 			buildPhases = (
-				77E849D920C1DCB000357650 /* Sources */,
-				77E849DA20C1DCB000357650 /* Frameworks */,
-				77E849DB20C1DCB000357650 /* Resources */,
+				77E84A7F20C2021400357650 /* Sources */,
+				77E84A8020C2021400357650 /* Frameworks */,
+				77E84A8120C2021400357650 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BookStore;
-			productName = BookStore;
-			productReference = 77E849DD20C1DCB000357650 /* BookStore.app */;
+			name = RandomNumberDelegate;
+			productName = RandomNumberDelegate;
+			productReference = 77E84A8320C2021400357650 /* RandomNumberDelegate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		77E849D520C1DCB000357650 /* Project object */ = {
+		77E84A7B20C2021400357650 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "何進";
 				TargetAttributes = {
-					77E849DC20C1DCB000357650 = {
+					77E84A8220C2021400357650 = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
-			buildConfigurationList = 77E849D820C1DCB000357650 /* Build configuration list for PBXProject "BookStore" */;
+			buildConfigurationList = 77E84A7E20C2021400357650 /* Build configuration list for PBXProject "RandomNumberDelegate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 77E849D420C1DCB000357650;
-			productRefGroup = 77E849DE20C1DCB000357650 /* Products */;
+			mainGroup = 77E84A7A20C2021400357650;
+			productRefGroup = 77E84A8420C2021400357650 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77E849DC20C1DCB000357650 /* BookStore */,
+				77E84A8220C2021400357650 /* RandomNumberDelegate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		77E849DB20C1DCB000357650 /* Resources */ = {
+		77E84A8120C2021400357650 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77E849ED20C1DCB400357650 /* LaunchScreen.storyboard in Resources */,
-				77E849EA20C1DCB400357650 /* Assets.xcassets in Resources */,
-				77E849E820C1DCB000357650 /* Main.storyboard in Resources */,
+				77E84A9420C2021600357650 /* LaunchScreen.storyboard in Resources */,
+				77E84A9120C2021600357650 /* Assets.xcassets in Resources */,
+				77E84A8C20C2021400357650 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		77E849D920C1DCB000357650 /* Sources */ = {
+		77E84A7F20C2021400357650 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77E849E520C1DCB000357650 /* DetailViewController.swift in Sources */,
-				77E849E320C1DCB000357650 /* MasterViewController.swift in Sources */,
-				77E84A3720C1ECF000357650 /* BookStore.swift in Sources */,
-				77E84A9E20C2A92E00357650 /* AddBookViewController.swift in Sources */,
-				77E849E120C1DCB000357650 /* AppDelegate.swift in Sources */,
-				77E84A3520C1EA8700357650 /* Book.swift in Sources */,
-				77E849F520C1DCE900357650 /* Customer.swift in Sources */,
+				77E84A8F20C2021400357650 /* RandomNumberDelegate.xcdatamodeld in Sources */,
+				77E84A8920C2021400357650 /* ViewController.swift in Sources */,
+				77E84A8720C2021400357650 /* AppDelegate.swift in Sources */,
+				77E84A9C20C206B400357650 /* GuessInputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		77E849E620C1DCB000357650 /* Main.storyboard */ = {
+		77E84A8A20C2021400357650 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77E849E720C1DCB000357650 /* Base */,
+				77E84A8B20C2021400357650 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		77E849EB20C1DCB400357650 /* LaunchScreen.storyboard */ = {
+		77E84A9220C2021600357650 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77E849EC20C1DCB400357650 /* Base */,
+				77E84A9320C2021600357650 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		77E849EF20C1DCB400357650 /* Debug */ = {
+		77E84A9620C2021600357650 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		77E849F020C1DCB400357650 /* Release */ = {
+		77E84A9720C2021600357650 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,34 +284,34 @@
 			};
 			name = Release;
 		};
-		77E849F220C1DCB400357650 /* Debug */ = {
+		77E84A9920C2021600357650 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BookStore/Info.plist;
+				INFOPLIST_FILE = RandomNumberDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.hejin.BookStore;
+				PRODUCT_BUNDLE_IDENTIFIER = org.hejin.RandomNumberDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		77E849F320C1DCB400357650 /* Release */ = {
+		77E84A9A20C2021600357650 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BookStore/Info.plist;
+				INFOPLIST_FILE = RandomNumberDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.hejin.BookStore;
+				PRODUCT_BUNDLE_IDENTIFIER = org.hejin.RandomNumberDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,25 +321,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77E849D820C1DCB000357650 /* Build configuration list for PBXProject "BookStore" */ = {
+		77E84A7E20C2021400357650 /* Build configuration list for PBXProject "RandomNumberDelegate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77E849EF20C1DCB400357650 /* Debug */,
-				77E849F020C1DCB400357650 /* Release */,
+				77E84A9620C2021600357650 /* Debug */,
+				77E84A9720C2021600357650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77E849F120C1DCB400357650 /* Build configuration list for PBXNativeTarget "BookStore" */ = {
+		77E84A9820C2021600357650 /* Build configuration list for PBXNativeTarget "RandomNumberDelegate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77E849F220C1DCB400357650 /* Debug */,
-				77E849F320C1DCB400357650 /* Release */,
+				77E84A9920C2021600357650 /* Debug */,
+				77E84A9A20C2021600357650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77E84A8D20C2021400357650 /* RandomNumberDelegate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77E84A8E20C2021400357650 /* RandomNumberDelegate.xcdatamodel */,
+			);
+			currentVersion = 77E84A8E20C2021400357650 /* RandomNumberDelegate.xcdatamodel */;
+			path = RandomNumberDelegate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 77E849D520C1DCB000357650 /* Project object */;
+	rootObject = 77E84A7B20C2021400357650 /* Project object */;
 }
